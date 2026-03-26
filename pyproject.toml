@@ -1,0 +1,32 @@
+[project]
+name = "cancer-staging-proyect-pln"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.0.0",
+    "notebook>=7.0.0",
+    "jupyterlab>=4.0.0",
+    "ipywidgets>=8.0.0",
+    "ipykernel>=6.0.0",
+    "spacy>=3.8.11",
+    "es-core-news-sm",
+    "tensorflow>=2.20.0",
+    "scikit-learn>=1.8.0",
+    "matplotlib>=3.10.8",
+    "gensim>=4.4.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "nltk>=3.9.2",
+    "sense2vec>=2.0.2",
+    "datasets>=4.4.2",
+    "bokeh>=3.8.2",
+    "tensorflow-hub>=0.16.1",
+    "torch>=2.9.1",
+    "transformers>=4.57.5",
+    "sentence-transformers>=5.2.0",
+]
+
+[tool.uv.sources]
+es-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl" }
