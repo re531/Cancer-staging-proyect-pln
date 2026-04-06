@@ -12,6 +12,7 @@ dependencies = [
     "ipykernel>=6.0.0",
     "spacy>=3.8.11",
     "es-core-news-sm",
+    "en-core-web-sm",
     "tensorflow>=2.20.0",
     "scikit-learn>=1.8.0",
     "matplotlib>=3.10.8",
@@ -30,3 +31,4 @@ dependencies = [
 
 [tool.uv.sources]
 es-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl" }
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
