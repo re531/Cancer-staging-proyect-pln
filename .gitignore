@@ -1,0 +1,12 @@
+# Ignorar el entorno virtual (nunca se sube a GitHub)
+.venv/
+
+# Ignorar la carpeta con los pesos del modelo Transformer
+Codigos/resultados_bert/
+
+# Ignorar pesos sueltos por si acaso
+*.pt
+*.pth
+*.bin
+*.safetensors
+trainer_state.json
