@@ -27,7 +27,11 @@ dependencies = [
     "torch>=2.9.1",
     "transformers>=4.57.5",
     "sentence-transformers>=5.2.0",
+<<<<<<< HEAD
     "seaborn>=0.13.2",
+=======
+    "imbalanced-learn>=0.14.1",
+>>>>>>> 95d19d9c0e016eceb628cbdf31ccdf0b9ebcd54d
 ]
 
 [tool.uv.sources]
