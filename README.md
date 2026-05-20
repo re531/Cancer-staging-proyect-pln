@@ -49,8 +49,8 @@ Entrenamiento de una Red Neuronal Convolucional 1D (CNN) durante 10 épocas.
 
 Inferencia sobre los datos del conjunto de test.
 
-Obtención de Resultados: Una vez finalizada la ejecución, el script no generará un archivo nuevo, sino que sobrescribirá el archivo original de test añadiendo la columna t con las predicciones. Encontrarás tus resultados en:
-../Datos/A_Predecir/tcga_simple_test_empty.csv
+Obtención de Resultados: Una vez finalizada la ejecución, el script rellenará un archivo ,cogiendo las columnas del original de test añadiendo la columna t con las predicciones. Encontrarás tus resultados en:
+../Datos/A_Predecir/tcga_simple_test_predicted.csv
 
 4. Breve descripción de la Arquitectura
 El modelo implementado es una arquitectura profunda secuencial compuesta por:
