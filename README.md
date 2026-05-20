@@ -18,8 +18,12 @@ El código de evaluación (`Evaluacion.ipynb`) utiliza rutas relativas para loca
 ```text
 /Directorio_Raiz
  ├── /Datos
- │    ├── /Preprocesados
- │    │    └── tcga_preprocesado.csv      <-- Datos de entrenamiento limpios
+ │    ├── /Original
+ │    │    └── tcga_simple_train.csv      <-- Datos de entrenamiento empleados por las diferentes decisiones tomadas
+ |    |                                       ya que empelamos el texto "crudo" por ser el que mejor resultado nos ha dado a lo largo del proyecto
+ |    |---/Preprocesados
+ |    |     |---- tcga_preprocesado.csv   <-- Datos preprocesados guardados para poder ir haciendo las consecuentes pruebas de forma mas rapida
+ |    |                                       y mas comoda.
  │    └── /A_Predecir
  │         └── tcga_simple_test_empty.csv <-- Datos de test sin etiquetas
  ├── /Notebooks 
