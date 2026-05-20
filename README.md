@@ -1,10 +1,12 @@
 # Cancer-staging-proyect-pln
 
-El entorno de ejecución requiere las dependencias especificadas. Para instalarlas, utiliza el archivo `requirements.txt`:
+El entorno de ejecución requiere las dependencias especificadas. 
+Para instalarlas, utiliza el archivo `requirements.txt`:
 
 pip install -r requirements.txt
 
 Ejecución del Sistema
+
 El flujo completo de entrenamiento e inferencia se gestiona a través del notebook de evaluación:
 
 Entorno: Asegúrate de tener todas las dependencias instaladas.
