@@ -4,14 +4,12 @@
 Este documento explica los pasos necesarios para reproducir el entrenamiento del modelo final y generar las predicciones sobre el conjunto de test.
 
 ## 1. Requisitos del Entorno
-Para ejecutar el sistema, es necesario disponer de un entorno de Python con las siguientes librerías instaladas:
-* `pandas`
-* `numpy`
-* `tensorflow`
-* `scikit-learn`
+El entorno de ejecución requiere las dependencias especificadas. Para instalarlas, utiliza el archivo `requirements.txt`:
+
 
 Se puede instalar el entorno utilizando pip:
-`pip install pandas numpy tensorflow scikit-learn`
+pip install -r requirements.txt
+
 
 ## 2. Estructura de Directorios Esperada
 El código de evaluación (`Evaluacion.ipynb`) utiliza rutas relativas para localizar los datos. Para que la ejecución sea correcta, la estructura de carpetas del proyecto debe ser la siguiente:
