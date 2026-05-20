@@ -4,12 +4,13 @@
 Este documento explica los pasos necesarios para reproducir el entrenamiento del modelo final y generar las predicciones sobre el conjunto de test.
 
 ## 1. Requisitos del Entorno
-El entorno de ejecución requiere las dependencias especificadas. Para instalarlas, utiliza el archivo `requirements.txt`:
+Para evaluar el sistema, se han exportado todas las dependencias exactas del proyecto. Se recomienda crear un entorno virtual de Python (versión 3.9 o superior) y ejecutar el siguiente comando en la terminal para instalar las librerías necesarias:
 
+``` bash
 
-Se puede instalar el entorno utilizando pip:
+pip install -r requirements.txt
 
-`pip install -r requirements.txt`
+```
 
 
 ## 2. Estructura de Directorios Esperada
