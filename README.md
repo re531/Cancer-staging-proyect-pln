@@ -38,10 +38,10 @@ Para obtener las predicciones finales, sigue estos pasos:
 
  Verificación de archivos:
    Asegúrate de que los archivos .csv mencionados en la estructura de directorios están en sus rutas correspondientes.
-   El notebook leerá automáticamente los datos de entrenamiento limpios (tcga_preprocesado.csv) y el dataset vacío para test  (tcga_simple_test_empty.csv).
+   El notebook leerá automáticamente los datos de entrenamiento  (tcga_simple_train.csv) y el dataset vacío para test  (tcga_simple_test_empty.csv).
 
  Ejecución del pipeline:
-   Ejecuta todas las celdas del notebook.
+   Ejecuta todas la celda del notebook.
    El proceso realizará de forma desatendida las siguientes acciones:
 
      Codificación de las etiquetas con LabelEncoder.
