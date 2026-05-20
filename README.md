@@ -8,7 +8,8 @@ El entorno de ejecución requiere las dependencias especificadas. Para instalarl
 
 
 Se puede instalar el entorno utilizando pip:
-pip install -r requirements.txt
+
+`pip install -r requirements.txt`
 
 
 ## 2. Estructura de Directorios Esperada
